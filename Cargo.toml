@@ -1,0 +1,12 @@
+[package]
+name = "actor-ping"
+version = "0.1.0"
+authors = ["Brandon Mason <q@bitmage.net>"]
+
+[dependencies]
+actix = "0.7"
+futures = "0.1.25"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
